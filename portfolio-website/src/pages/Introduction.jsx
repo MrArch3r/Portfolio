@@ -1,14 +1,33 @@
 export default function Introduction({}) {
+  const iconStyle = "h-10 cursor-pointer opacity-80 hover:opacity-100 transform transition duration-300 hover:scale-110";
+
   return (
     <div style={{ height: 'calc(100vh - 6rem)' }} className="bg-[#eff6ff] flex items-center">
       <div className="flex-3 w-full ml-30">
         <h1 className="text-black font-bold text-4xl">Hello, I'm Jordan Archer</h1>
         <p className="text-xl">A </p>
+        <div className="flex gap-2">
+          <a href="https://www.linkedin.com/in/archerjordan/" target="_blank" rel="noopener noreferrer">
+            <img className={iconStyle} src="/Portfolio/linkedin.svg" alt="Linked in icon" />
+          </a>
+          <a href="https://github.com/MrArch3r" target="_blank" rel="noopener noreferrer">
+            <img className={iconStyle} src="/Portfolio/github.svg" alt="Github icon" />
+          </a>
+          <a href="https://www.facebook.com/jordan.archer.210869" target="_blank" rel="noopener noreferrer">
+            <img 
+              className="h-10 cursor-pointer scale-90 opacity-80 hover:opacity-100 transform transition duration-300 hover:scale-100" 
+              src="/Portfolio/facebook.svg" 
+              alt="Facebook icon" />
+          </a>
+          <a href="https://www.instagram.com/mrarch3r/" target="_blank" rel="noopener noreferrer">
+            <img className={iconStyle} src="/Portfolio/instagram.svg" alt="Instagram icon" />
+          </a>
+        </div>
       </div>
 
       <img
-        className="flex-2 h-[100%] p-22" 
-        src="/Portfolio/homeBlue.svg" 
+        className="flex-2 h-[100%] p-22"
+        src="/Portfolio/homeBlue.svg"
         alt="Illustration of life management"
         draggable="false"
       />
