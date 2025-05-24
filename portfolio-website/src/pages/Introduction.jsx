@@ -2,11 +2,11 @@ export default function Introduction({}) {
   const iconStyle = "h-10 cursor-pointer opacity-80 hover:opacity-100 transform transition duration-300 hover:scale-110";
 
   return (
-    <div style={{ height: 'calc(100vh - 6rem)' }} className="bg-[#eff6ff] flex items-center">
+    <div id="home" style={{ height: 'calc(100vh - 6rem)' }} className="bg-[#eff6ff] flex items-center scroll-mt-24">
       <div className="flex-3 w-full ml-30">
-        <h1 className="text-black font-bold text-4xl">Hello, I'm Jordan Archer</h1>
-        <p className="text-xl">A </p>
-        <div className="flex gap-2">
+        <h1 className="text-black font-bold text-4xl mb-2">Hello, I'm Jordan Archer</h1>
+        <p className="text-xl mb-2">A </p>
+        <div className="flex gap-2 relative -left-1">
           <a href="https://www.linkedin.com/in/archerjordan/" target="_blank" rel="noopener noreferrer">
             <img className={iconStyle} src="/Portfolio/linkedin.svg" alt="Linked in icon" />
           </a>

@@ -1,12 +1,15 @@
 import Introduction from "./Introduction"
+import About from "./About"
+import Skills from "./Skills"
+import Projects from "./Projects"
 
 export default function Main({}) {
   return (
     <div className="pt-24">
       <Introduction />
-      <div style={{ height: 'calc(100vh - 6rem)' }} className="bg-white">
-
-      </div>
+      <About />
+      <Skills />
+      <Projects />
     </div>
   )
 }
