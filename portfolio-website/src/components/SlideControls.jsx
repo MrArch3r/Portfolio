@@ -1,9 +1,10 @@
+const mod = (n, m) => ((n % m) + m) % m;
+
 export default function SlideControls({ setSlideNum, totalSlideCount }) {
   const arrowStyle = "absolute top-1/2 transform -translate-y-1/2 w-10 cursor-pointer opacity-15 hover:opacity-40 transform transition duration-300 hover:scale-110";
 
   const updateSlide = (num) => {
-    console.log(num);
-    setSlideNum((prev) => (prev + num) % totalSlideCount);
+    setSlideNum((prev) => mod(prev + num, totalSlideCount));
   }
 
   return (
