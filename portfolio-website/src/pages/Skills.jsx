@@ -1,7 +1,7 @@
 import Tag from "../components/Tag";
 
 export default function Skills({}) {
-  const skillBoxStyle = "w-[38rem] min-h-[10rem] bg-white shadow-[0_0_15px_rgba(0,0,0,0.1)] rounded-2xl p-4";
+  const skillBoxStyle = "w-[42rem] min-h-[10rem] bg-white shadow-[0_0_15px_rgba(0,0,0,0.1)] rounded-2xl p-4";
 
   return (
     <div id="skills" className="bg-blue-50 scroll-mt-24 flex flex-col items-center">
@@ -12,7 +12,7 @@ export default function Skills({}) {
             <img className="w-9 relative -top-[10px] mr-2" src="/Portfolio/general-skills.svg" alt="Star Icon" />
             <h3 className="mb-6 font-medium">General</h3>
           </div>
-          <div className="flex flex-wrap gap-2 justify-center">
+          <div className="flex flex-wrap gap-2 px-10">
             <Tag name="Active Listener" colour="bg-violet-200"/>
             <Tag name="Adaptable" colour="bg-violet-200"/>
             <Tag name="Flexible" colour="bg-violet-200"/>
@@ -27,7 +27,7 @@ export default function Skills({}) {
             <img className="w-9 relative -top-[10px] mr-2" src="/Portfolio/technical-skills.svg" alt="Database Icon" />
             <h3 className="mb-6 font-medium">Technical</h3>
           </div>
-          <div className="flex flex-wrap gap-2 justify-center">
+          <div className="flex flex-wrap gap-2 px-10">
             <Tag name="Systems" colour="bg-fuchsia-300"/>
             <Tag name="Cybersecurity" colour="bg-fuchsia-300"/>
             <Tag name="Cloud" colour="bg-fuchsia-300"/>

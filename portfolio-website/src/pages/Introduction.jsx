@@ -3,7 +3,7 @@ export default function Introduction({}) {
 
   return (
     <div id="home" style={{ height: 'calc(100vh - 6rem)' }} className="bg-blue-50 flex items-center scroll-mt-24 px-30">
-      <div className="flex-3 w-full ml-30">
+      <div className="flex-3 w-full ml-30 -mt-20">
         <h1 className="text-black font-bold text-4xl mb-2">Hello, I'm Jordan Archer</h1>
         <p className="text-xl mb-2">A </p>
         <div className="flex gap-2 relative -left-1">
@@ -26,11 +26,16 @@ export default function Introduction({}) {
       </div>
 
       <img
-        className="flex-2 h-[100%] p-22"
+        className="flex-2 h-[95%] p-22 -mt-20"
         src="/Portfolio/homeBlue.svg"
         alt="Illustration of life management"
         draggable="false"
       />
+
+      <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 flex flex-col animate-bounce">
+        <div className="text-[#888888] text-xl">Scroll Down</div>
+        <img className="h-10 relative -top-2" src="/Portfolio/down.svg" alt="Down Icon" />
+      </div>
     </div>
   )
 }
