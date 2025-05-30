@@ -8,7 +8,7 @@ export default function Education({}) {
         <h2 className="text-3xl font-medium">Education</h2>
       </div>
       <p className="text-xl text-[#666666]">3rd year Computer Science at UNSW | WAM: 82</p>
-      <div className="flex mt-4">
+      <div className="flex flex-col md:flex-row mt-4">
         <div className="flex-1">
           <h3 className="mb-6">Key Courses</h3>
           <div className="flex flex-wrap gap-2">
@@ -22,7 +22,7 @@ export default function Education({}) {
             <Tag name="Web Development" colour="bg-yellow-100"/>
           </div>
         </div>
-        <div className="flex-1 ml-6">
+        <div className="flex-1 mt-4 md:mt-0 md:ml-6">
           <h3 className="mb-6">Languages</h3>
           <div className="flex flex-wrap gap-2">
             <Tag name="C" colour="bg-green-100"/>
