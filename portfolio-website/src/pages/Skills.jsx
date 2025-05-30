@@ -1,7 +1,7 @@
 import Tag from "../components/Tag";
 
 export default function Skills({}) {
-  const skillBoxStyle = "w-[42rem] min-h-[10rem] bg-white shadow-[0_0_15px_rgba(0,0,0,0.1)] rounded-2xl p-4";
+  const skillBoxStyle = "max-w-[42rem] min-h-[10rem] bg-white shadow-[0_0_15px_rgba(0,0,0,0.1)] rounded-2xl p-4";
 
   return (
     <div id="skills" className="bg-blue-50 scroll-mt-24 flex flex-col items-center">

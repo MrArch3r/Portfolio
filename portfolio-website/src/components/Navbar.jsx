@@ -9,7 +9,7 @@ export default function Navbar({}) {
         <a href="#about" className={navbarStyle}>About</a>
         <a href="#skills" className={navbarStyle}>Skills</a>
         <a href="#projects" className={navbarStyle}>Projects</a>
-        <a className={navbarStyle}>Contact Me</a>
+        <a href="#contact-me" className={navbarStyle}>Contact Me</a>
       </div>
     </div>
   )

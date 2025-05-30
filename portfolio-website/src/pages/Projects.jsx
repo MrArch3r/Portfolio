@@ -1,5 +1,5 @@
 export default function Projects({}) {
-  const projectTileStyle = "w-[42rem] min-h-[10rem] bg-white shadow-[0_0_15px_rgba(0,0,0,0.1)] rounded-2xl p-4";
+  const projectTileStyle = "max-w-[42rem] min-h-[10rem] bg-white shadow-[0_0_15px_rgba(0,0,0,0.1)] rounded-2xl p-4";
 
   return (
     <div id="projects" className="bg-white scroll-mt-24 flex flex-col items-center">
