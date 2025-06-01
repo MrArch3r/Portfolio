@@ -9,9 +9,9 @@ export default function ContactMe({}) {
   const form = useRef();
 
   const labelStyle = "font-medium";
-  const inputStyle = "bg-white w-[36rem] h-[3rem] rounded-3xl border-2 border-blue-100 mt-2 mb-4 px-3 text-lg";
-  const textareaStyle = "bg-white w-[36rem] rounded-3xl border-2 border-blue-100 mt-2 mb-4 p-3 text-base resize-none";
-  const buttonStyle = "bg-blue-500 text-white w-[12rem] h-[2.5rem] rounded-3xl mx-auto mt-8 cursor-pointer transform transition duration-300 hover:scale-103";
+  const inputStyle = "bg-white w-[18rem] sm:w-[24rem] md:w-[36rem] h-[3rem] rounded-3xl border-2 border-blue-100 mt-2 mb-4 px-3 text-lg";
+  const textareaStyle = "bg-white w-[18rem] sm:w-[24rem] md:w-[36rem] rounded-3xl border-2 border-blue-100 mt-2 mb-4 p-3 text-base resize-none";
+  const buttonStyle = "bg-blue-500 text-white w-[10rem] md:w-[12rem] h-[2.5rem] rounded-3xl mx-auto mt-8 cursor-pointer transform transition duration-300 hover:scale-103";
 
   const sendEmail = (e) => {
     e.preventDefault();
