@@ -26,7 +26,7 @@ export default function Introduction({}) {
       </div>
 
       <img
-        className="hidden xl:block flex-2 h-[40rem] 2xl:h-[48rem] p-22 -mt-20"
+        className="hidden xl:block flex-2 h-[40rem] 2xl:h-[45rem] p-22 -mt-20"
         src="/Portfolio/homeBlue.svg"
         alt="Illustration of life management"
         draggable="false"

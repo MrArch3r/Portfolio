@@ -7,7 +7,7 @@ export default function Education({}) {
         <img className="w-14 relative -left-2 -top-2" src="/Portfolio/education.svg" alt="Education Icon" />
         <h2 className="text-3xl font-medium">Education</h2>
       </div>
-      <p className="text-xl text-[#666666]">3rd year Computer Science at UNSW | WAM: 82</p>
+      <p className="text-xl text-[#666666]">Bachelor of Computer Science – UNSW, 2025 | WAM: 81</p>
       <div className="flex flex-col md:flex-row mt-4">
         <div className="flex-1">
           <h3 className="mb-6">Key Courses</h3>
